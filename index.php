@@ -1,3 +1,5 @@
+<html>
+<head>
 <?php
 	$titulo = "Panel de control - Proyecto integrador";
 	require "conexion.php";
@@ -12,7 +14,7 @@
 	mysqli_close($link); //Cierra conexiòn
 
 ?>
-<?php include "encabezado.php"; ?>
+ <?php include "encabezado.php"; ?>
 </head>
 <body>
 	<div id="top"><img src="imagenes/top.png" alt="encabezado" width="980" height="80"></div>
@@ -21,7 +23,7 @@
 	</div>
 	<div id="main">
 		<h1><?php echo $titulo; ?></h1>
-		
+
 		<table id="panel">
 			<tr>
 				<th>Nombre</th>
@@ -52,7 +54,5 @@
 		<?php  include "pie.php"  ?>
 	</div>
 	
-<!-- Hacer tabla como captura panel-categorias, panel-productos (SAVE AS de index) y panel usuarios
-	 repasar INSERT y WHERE -->
 </body>
 </html>
