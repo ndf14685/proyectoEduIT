@@ -1,6 +1,6 @@
 <?php 
 //Directiva de sesión
-session_start(); //Crea una sesión si no exitse, sino usa la que hay
+session_start(); //Crea una sesión si no existe, sino usa la que hay
 //Registramos variables de sesión
 $_SESSION['nombre'] = "Leila";
 $_SESSION['numero'] = 13;
